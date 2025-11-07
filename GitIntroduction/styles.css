@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(78, 144, 229);
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+dl {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+dt {
+    padding: 1rem;
+    background-color: white;
+    font-weight: bold;
+}
+
+
+dd {
+    padding: 1rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
