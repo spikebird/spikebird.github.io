@@ -1,139 +1,163 @@
 body {
-background-color:#01293F;
+  background-color: #01293f;
 }
 
 .container {
-max-width: 75rem;
-min-height: 10rem;
-margin: auto;
-background-color: rgba(255, 255, 255, 0.645);
-padding: 1rem;
+  max-width: 75rem;
+  min-height: 10rem;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.645);
+  padding: 1rem;
 }
 
-
 #pageheader {
-background-color:#01293F;
-min-height: auto;
-padding: .25rem;
+  background-color: #01293f;
+  min-height: auto;
+  padding: 0.25rem;
 }
 
 #logo {
-background-image: url(Images/roboky1.png);
-width: 6.25rem;
-height: 6.25rem;
-border: 1px solid none;
+  background-image: url(Images/roboky1.png);
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 1px solid none;
 }
 
 #pageheader .container {
-min-height: auto;
+  min-height: auto;
 }
 
 #pageheader nav {
-    text-align: center;
-}      
+  text-align: center;
+}
 
 #pageheader nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #pageheader nav ul li {
-    border: 2px solid silver;
-    padding: 1rem;
-    background-color: #859AA3;
-    margin: 2px;
+  border: 2px solid silver;
+  padding: 1rem;
+  background-color: #859aa3;
+  margin: 2px;
 }
 
 #pageheader nav ul li:hover {
-    background-color: #7bb5ce;
+  background-color: #7bb5ce;
 }
 
 #media {
-background-color: #01293F;
-min-height: 10rem;
-padding: 1rem;
-background-image: url(Images/usethisone.png);
-background-size: cover;
-aspect-ratio: 16 / 9;
+  background-color: #01293f;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/usethisone.png);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
 }
 
 #career {
-background-color: #2e477c;
-min-height: 10rem;
-padding: 1rem;
+  background-color: #2e477c;
+  min-height: 10rem;
+  padding: 1rem;
 }
 
 #pagecontent {
-background-color: #55657C;
-min-height: 10rem;
-padding: 1rem;
+  background-color: #55657c;
+  min-height: 10rem;
+  padding: 1rem;
 }
 
 #semester1 {
-background-color: #44474B;
-min-height: 10rem;
-padding: 1rem;
+  background-color: #44474b;
+  min-height: 10rem;
+  padding: 1rem;
 }
 
 #semester2 {
-background-color: #70737C;
-min-height: 10rem;
-padding: 1rem;
+  background-color: #70737c;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#worksamples {
+  background-color: #2e477c;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#worksamples ul {
+  list-style-type: none;
+}
+
+#worksamples i {
+  color: rgb(74, 68, 186);
+}
+
+#certificates {
+  background-color: #44474b;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#certificates ul {
+  list-style-type: none;
+}
+
+#certificates i {
+  color: rgb(74, 68, 186);
 }
 
 #pagefooter {
-background-color: #123562;
-min-height: auto;
-padding: 1rem;
+  background-color: #123562;
+  min-height: auto;
+  padding: 1rem;
 }
 
-#pagefooter .container
-{
-    min-height: auto;
-    text-align: center;
+#pagefooter .container {
+  min-height: auto;
+  text-align: center;
 }
 
 #subfooter {
-background-color: rgb(28, 70, 104);
-min-height: 10rem;
-padding: 1rem;
-text-align: center;
+  background-color: rgb(28, 70, 104);
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 audio {
-border: 5px solid rgb(0, 0, 0);
-background-color: rgb(0, 0, 0);
-display: block;
-margin: auto;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  display: block;
+  margin: auto;
 }
 
-@media screen and (min-width:850px) {
-    #pageheader nav ul{
-        background-color: none;
-        margin-top: 2rem;
-    }
+@media screen and (min-width: 850px) {
+  #pageheader nav ul {
+    background-color: none;
+    margin-top: 2rem;
+  }
 
-    #pageheader nav ul li {
-        display: inline-block;
-    }
+  #pageheader nav ul li {
+    display: inline-block;
+  }
 
-    #pagecontent { 
-        background-color: #123562;
-    }
+  #pagecontent {
+    background-color: #123562;
+  }
 
-    #career { 
-        background-color: #44474B;
-    }
+  #career {
+    background-color: #44474b;
+  }
 }
-@media screen and (min-width:1000px) {
+@media screen and (min-width: 1000px) {
+  #pagecontent {
+    background-color: #2e477c;
+  }
 
-
-    #pagecontent { 
-        background-color: #2e477c;
-    }
-
-    #career { 
-        background-color: #55657C;
-    }
+  #career {
+    background-color: #55657c;
+  }
 }
