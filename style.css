@@ -1,23 +1,33 @@
 body {
-  background-color: #01293f;
+  background-color: #121617;
+  color: #f1e7d1;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover,
+button:hover {
+  color: #ffffff;
 }
 
 .container {
   max-width: 75rem;
   min-height: 10rem;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.645);
+  background-color: rgba(38, 24, 14, 0.88);
   padding: 1rem;
 }
 
 #pageheader {
-  background-color: #01293f;
+  background-color: #1d1914;
   min-height: auto;
   padding: 0.25rem;
 }
 
 #logo {
-  background-image: url(Images/roboky1.png);
+  background-image: url(Images/Adobe\ Express\ -\ file.jpg);
   width: 6.25rem;
   height: 6.25rem;
   border: 1px solid none;
@@ -38,51 +48,51 @@ body {
 }
 
 #pageheader nav ul li {
-  border: 2px solid silver;
+  border: 2px solid rgba(255, 184, 92, 0.4);
   padding: 1rem;
-  background-color: #859aa3;
+  background-color: #3d2d20;
   margin: 2px;
 }
 
 #pageheader nav ul li:hover {
-  background-color: #7bb5ce;
+  background-color: #8c6239;
 }
 
 #media {
-  background-color: #01293f;
+  background-color: #17120f;
   min-height: 10rem;
   padding: 1rem;
-  background-image: url(Images/usethisone.png);
+  background-image: url(Images/Axl_Low.jpg);
   background-size: cover;
   aspect-ratio: 16 / 9;
 }
 
 #career {
-  background-color: #2e477c;
+  background-color: #493421;
   min-height: 10rem;
   padding: 1rem;
 }
 
 #pagecontent {
-  background-color: #55657c;
+  background-color: #5b432c;
   min-height: 10rem;
   padding: 1rem;
 }
 
 #semester1 {
-  background-color: #44474b;
+  background-color: #392b23;
   min-height: 10rem;
   padding: 1rem;
 }
 
 #semester2 {
-  background-color: #70737c;
+  background-color: #6e5437;
   min-height: 10rem;
   padding: 1rem;
 }
 
 #worksamples {
-  background-color: #2e477c;
+  background-color: #493421;
   min-height: 10rem;
   padding: 1rem;
 }
@@ -92,11 +102,11 @@ body {
 }
 
 #worksamples i {
-  color: rgb(74, 68, 186);
+  color: #ddb56d;
 }
 
 #certificates {
-  background-color: #44474b;
+  background-color: #392b23;
   min-height: 10rem;
   padding: 1rem;
 }
@@ -106,11 +116,11 @@ body {
 }
 
 #certificates i {
-  color: rgb(74, 68, 186);
+  color: #ddb56d;
 }
 
 #pagefooter {
-  background-color: #123562;
+  background-color: #241d18;
   min-height: auto;
   padding: 1rem;
 }
@@ -121,15 +131,15 @@ body {
 }
 
 #subfooter {
-  background-color: rgb(28, 70, 104);
+  background-color: #2f251e;
   min-height: 10rem;
   padding: 1rem;
   text-align: center;
 }
 
 audio {
-  border: 5px solid rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0);
+  border: 5px solid #3d2f24;
+  background-color: #0d0a08;
   display: block;
   margin: auto;
 }
@@ -145,19 +155,19 @@ audio {
   }
 
   #pagecontent {
-    background-color: #123562;
+    background-color: #2f2418;
   }
 
   #career {
-    background-color: #44474b;
+    background-color: #392b23;
   }
 }
 @media screen and (min-width: 1000px) {
   #pagecontent {
-    background-color: #2e477c;
+    background-color: #493421;
   }
 
   #career {
-    background-color: #55657c;
+    background-color: #5e432d;
   }
 }
